@@ -1,0 +1,11 @@
+# Local verification output contains NAMED-COMPANY findings.
+# Method and aggregates are publishable; named estates annotated with
+# weaknesses are not. Do not remove these lines.
+_verify-*
+*.csv
+*.json
+!package.json
+
+# PowerShell / editor noise
+*.ps1xml
+.vscode/
